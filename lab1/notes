@@ -1,0 +1,45 @@
+Java vs Javascrip === Car vs Carnaval
+
+/* ----------------------- How a Web Site is created: ----------------------- */
+
+1. UX/UI (User Experience/ User Interface):
+	Company value target to user group
+
+2. WebDesign = > draw a web site (psd)
+
+3. Front-End  (programming what a user see )
+	Back-End (programming)
+
+
+Terminal/Command Line
+	Windows: CMD/PS(Power Shell)
+
+
+Agile: step by step
+
+Waterfall:
+
+/* ----------------------------- Git vs Github: ----------------------------- */
+Git: Version (Source) Control System
+
+Github/Gitlab/Butbucket/: Cloud Services integrated with Git
+Github : Microsoft
+
+Open Source:
+
+/* ---------------------------- Name conventions ---------------------------- */
+My first web page.html // very bad
+my_first_web_page.html // snake_case
+
+myFirstWebPage.html // lower Cammel Case
+
+MyFirstWebPage.html // upper Cammel Case (Pascal)
+
+/* --------------------------- Writing Code Tools --------------------------- */
+Code (Text) Editors:
+	Visual Studio Code (VSCode)
+
+IDE (Integrated Development Envirionment)
+	Visual Studio / IntelliJ /
+
+
