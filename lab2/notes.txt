@@ -1,0 +1,26 @@
+Useful keyboard shortcut
+
+CTRL+S =>save file
+CTRL+Z => undo
+
+CTRL+C => copy
+CTRL+X => cut
+CTRL+V => paste
+
+CTRL+A => select all
+
+
+VSCode
+CTRL+SHIFT+P => command palette
+CTRL+B = > toggle sidebar
+CTRL+W => close tab
+
+
+Web Site = many Web Pages
+
+
+# ------------------------------------ SEO ----------------------------------- #
+SEO = Search Engine Optimization
+
+
+keywords = tomato
