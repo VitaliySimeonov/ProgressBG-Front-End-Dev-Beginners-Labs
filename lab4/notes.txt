@@ -1,0 +1,11 @@
+Absolute path:
+	/media/nemsys/data/projects/courses/ProgressBG/ProgressBG-Front-End-Dev/Labs/lab4/business-man.png
+
+	C:\My Documents\ProgressBG\ProgressBG-Front-End-Dev\Labs\lab4\business-man.png
+
+
+
+https://en.wikipedia.org/wiki/Bulgaria
+https://en.wikipedia.org/wiki/Bulgaria#Demographics
+
+Relative path:
