@@ -1,0 +1,29 @@
+ISP (Internet Services Provider:  a1)
+
+# --------------------------- Show local IP address -------------------------- #
+Win key => Search => CMD
+
+ipconfig
+192.168.0.124
+192.168.0.108
+192.168.0.127
+
+Local IP: 192.168.0.124 => ISP(a1) => 93.152.163.6
+
+
+# ----------------------------------- HTTP ----------------------------------- #
+HTTP: HyperTextTransportProtocol
+
+HTML:  HyperTextMarkupLanguage
+
+
+# ----------------------------- VSCode "Go Live": ---------------------------- #
+1. Start live-server with root folder "LABS"
+2. Open Browser/Tab => put address (URL)
+3. ...
+
+# ------------------------------------ URL ----------------------------------- #
+http://127.0.0.1:8080/
+file:///media/nemsys/data/projects/courses/ProgressBG/ProgressBG-Front-End-Dev/Labs/lab6/othersite.com/index.html
+http://127.0.0.1:5502/lab6/mysite.com/front-end/index.html
+https://www.abv.bg/
