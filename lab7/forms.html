@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+</head>
+<body>
+	<h1>Forms</h1>
+
+	<form action="./back-end/jfdksd.py" method="get">
+		<hr>
+		<label>Your comment: <textarea name="comment" cols="30" rows="3"></textarea></label>
+		<hr>
+		<div><label>user name: <input type="text" name="userName"></label></div>
+		<hr>
+		<div>Town:
+			<select name="town" multiple>
+				<optgroup label="А">
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+				</optgroup>
+				<optgroup label="Б">
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+				</optgroup>
+				<optgroup label="В">
+					<option value="">Варна</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+				</optgroup>
+				<optgroup label="Г">
+					<option value="">Гоце Делчев</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+					<option value="">Town 1</option>
+				</optgroup>
+			</select>
+		</div>
+		<hr>
+		<div>Gender:
+			<select name="gender">
+				<option value="male">Мъж</option>
+				<option value="female">Жена</option>
+				<option value="other">Друг</option>
+			</select>
+		</div>
+		<hr>
+		<div>Birth Date: <input type="date" name="" id=""></div>
+		<hr>
+		<div>Gender:
+			<label for="male">male:</label>
+			<input id="male" type="radio" name="gender" value="male">
+
+			<label>female:<input type="radio" name="gender" value="female"></label>
+
+			<label>other: <input type="radio" name="gender" value="other"></label>
+		</div>
+		<div>Colors</div>
+			red: <input type="checkbox" name="colors" value="red">
+			green: <input type="checkbox" name="colors" value="green">
+			blue: <input type="checkbox" name="colors" value="blue">
+		<br>
+		<hr>
+		<input type="submit" value="Изпрати">
+		<input type="reset" value="Изчисти">
+		<input type="button" value="Click me">
+		<hr>
+		<button>Изпрати</button>
+		<button type="reset">Изчисти</button>
+		<button type="button">Click me</button>
+		<!-- <button type="submit">Изпрати</button> -->
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+http://127.0.0.1:5502/lab7/forms.html
+
+http://127.0.0.1:5502/lab7/back-end/jfdksd.py?uname=ada&pass=123
+
+
+GET /back-end/jfdksd.py HTTP1.1
+query: uname=ada&pass=123
+
+http://127.0.0.1:5502/lab7/back-end/jfdksd.py?uname=usern+ame
