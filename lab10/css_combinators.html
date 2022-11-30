@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Combinators</title>
+	<link rel="stylesheet" href="https://cdnjs.com/libraries/meyer-reset">
+	<style>
+		/* selector1>selector2{
+
+		} */
+		#l2-container>li{
+			border:2px solid red;
+		}
+		#l1-container>h2{
+			background-color: gray;
+		}
+
+		div>.red li{
+			color:orange;
+		}
+		h2+p{
+			color:orange;
+		}
+	</style>
+</head>
+<body>
+	<a href="#"><img src="#" alt="home_icon"></a>
+
+	<div>
+		<h2>List 1</h2>
+		<p>Paragraph 1 - Select me</p>
+		<p>Paragraph 2</p>
+		<ul class="red">
+			<li><a href="#">Item 1</a></li>
+			<li><a href="#">Item 2</a></li>
+		</ul>
+	</div>
+	<div>
+		<h2>List 2</h2>
+		<p>Paragraph 1 - Select me</p>
+		<p>Paragraph 2</p>
+		<ul class="blue">
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ul>
+	</div>
+</body>
+</html>
