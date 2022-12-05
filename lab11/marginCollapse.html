@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MArgin Collapse</title>
+	<style>
+		.box{
+			width: 300px;
+			height: 100px;
+		}
+		#div1{
+			border:5px solid red;
+			margin-bottom: 100px;
+		}
+		#div3{
+			border:5px solid green;
+			margin-top:200px;
+		}
+		.parent{
+			box-sizing: border-box;
+			width: 300px;
+			height: 200px;
+			padding-top: 100px;
+			/* border:0.1px solid lightcoral; */
+			background-color: red;
+		}
+		.child{
+			width: 200px;
+			height: 100px;
+			/* margin-top: 100px; */
+			/* margin: 100px 0 0 0; */
+			/* border:5px solid green; */
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<h2>Adjacent siblings verticle margin collapse</h2>
+
+	<div class="box" id="div1"></div>
+	<div class="box" id="div3"></div>
+	<hr>
+	<h2>Child-parent margin collapse</h2>
+	<div class="parent">
+		<div class="child"></div>
+	</div>
+</body>
+</html>
