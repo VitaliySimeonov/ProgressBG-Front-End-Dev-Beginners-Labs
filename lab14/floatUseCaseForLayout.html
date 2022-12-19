@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>floatUseCaseForLayout </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		header{
+			height: 200px;
+			background-color: #F99;
+		}
+		main{
+			min-height: 600px;
+			background-color: #9F9;
+		}
+		footer{
+			height: 200px;
+			background-color: #99F;
+		}
+		header .buttons{
+			float: right;
+			display: inline-block;
+			border:5px solid #999;
+		}
+		header .buttons a{
+			display: inline-block;
+			font-size: 2em;
+			text-decoration:none ;
+			border: 5px solid #000;
+			border-radius: 30%;
+			padding: .3em 1.2em;
+		}
+		h1{
+			font-size: 2em;
+			font-weight: bold;
+			text-align: center;
+			margin-top:1em;
+			border: 5px solid red;
+		}
+		.clear{
+			clear:both;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="buttons">
+			<a href="#">F</a>
+			<a href="#">I</a>
+			<a href="#">T</a>
+		</div>
+		<div class="buttons">
+			<a href="#">F</a>
+			<a href="#">I</a>
+			<a href="#">T</a>
+		</div>
+		<div class="clear"></div>
+		<h1>Company Name</h1>
+	</header>
+	<main>MAIN</main>
+	<footer>Footer</footer>
+</body>
+</html>

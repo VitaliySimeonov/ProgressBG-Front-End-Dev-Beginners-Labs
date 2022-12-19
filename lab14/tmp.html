@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>tmp </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<style>
+		body{
+			height: 1200px;
+		}
+		h2{
+			margin-bottom: 50px;
+		}
+		.container {
+			position: relative;
+			height: 30%;
+
+			background: #99FF99;
+		}
+
+		.centered {
+			position: absolute;
+			top:50%; left:50%;
+			width: 80%;
+			height: 60px;
+			transform: translate(-50%,-50%);
+
+			/* transform-origin:left top;
+			transform: rotate(45deg); */
+
+			background: #9999FF;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>How to centre an inline-block in a container (when the parent height is <u>known</u>)?</h1>
+	<h2>Vertically and Horizontally</h2>
+
+	<div class="container">
+		<div class="centered">I'm totaly centered!!!</div>
+	</div>
+</body>
+</html>
