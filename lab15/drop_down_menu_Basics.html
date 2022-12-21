@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>drop_down_menu_Basics </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<style>
+		.main_menu{
+			/* border:5px solid red; */
+		}
+		/* parent */
+		.main_menu>li{
+			position: relative;
+			border:5px solid green;
+		}
+		/* child */
+		.sub_menu{
+			position: absolute;
+			top:-1000px;left:0;
+			border:5px solid blue;
+			background-color:#99F;
+		}
+		/* select child when parent is hover */
+		.main_menu>li:hover>.sub_menu{
+			/* display: block; */
+			top:1em;
+		}
+		input:focus{
+			outline: none;
+			border:2px solid red;
+			/* background-color:red; */
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<label for="">user name: <input type="text"></label>
+		<label for="">user pass: <input type="pass"></label>
+	</form>
+	<hr>
+	<ul class="main_menu">
+		<li><a href="#">Супи</a>
+			<ul class="sub_menu">
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+		</li>
+	</ul>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aliquid provident delectus assumenda est maxime, architecto tenetur autem, vitae adipisci cumque hic molestiae ipsum error fuga id ipsam voluptas praesentium?</p>
+</body>
+</html>

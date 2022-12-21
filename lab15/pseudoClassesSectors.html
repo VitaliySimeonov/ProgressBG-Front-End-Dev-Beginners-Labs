@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>pseudoClassesSectors </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<style>
+		body:hover{
+			/* background-color:gray; */
+		}
+		a{
+			display: inline-block;
+			color:red;
+			text-decoration: none;
+			border: 5px solid blue;
+			padding: 20px;
+		}
+		/* unvisited links */
+		header>a:link{
+			color: green;
+			font-size:30px;
+		}
+		/* visited links */
+		header>a:visited{
+			color:gray;
+		}
+		header>a:hover{
+			cursor: croshair;
+			color:blue;
+			text-decoration: underline;
+		}
+		header>a:active{
+			color:orange;
+		}
+
+		/* TASK: when unvisited links are hovered => text-decoration-style:dotted */
+		/* selector:pseudo­class */
+		/* header>a:hover:link{ */
+		header>a:link:hover{
+			text-decoration-style:dotted;
+			color:aqua;
+		}
+
+		button{
+			width: 5em;
+			height: 5em;
+			border:5px solid #000;
+		}
+		button:active{
+			background-color: orange;
+		}
+		img{
+			width: 200px;
+		}
+		img:hover{
+			opacity: .5;
+			transform: rotate(90deg);
+		}
+
+		.parent{
+			width: 300px;
+			height: 300px;
+			background-color: red
+		}
+		.child{
+			display: none;
+			width: 50%;
+			height: 50%;
+			background-color: blue
+		}
+		/* TASK: when the .paent is hovered=>show its child */
+		.parent:hover>.child{
+			display: block;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="child">blue</div>
+	</div>
+	<hr>
+	<img src="../images/business-man.png" alt="">
+	<hr>
+	<header>
+		<a href="#sdjfkdsfkdskdsd">Link 1</a>
+		<a href="#sdjfkdsfkdskdsd">Link 1</a>
+		<a href="https://zoom.us/">Open Zoom</a>
+	</header>
+	<main>
+		<a href="#topid">Link 1</a>
+		<a href="https://zoom.us/">Open Zoom</a>
+	</main>
+	<hr>
+	<button class="box">box</button>
+
+
+</body>
+</html>

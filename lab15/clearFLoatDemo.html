@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>clearFLoatDemo </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<style>
+		.wrapper{
+			border: 5px solid #f99;
+		}
+		.box{
+			float: left;
+			width: 5em;
+			height: 5em;
+			margin: .5em;
+			border: 2px solid #99f;
+			/* display: inline-block; */
+		}
+		.clearfix{
+			clear:both;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="clearfix"></div>
+		<!--  В темата за pseudo-elements ще разгледаме как можем да "вмъкнем" този div.clearfix единствено със CSS -->
+
+	</div>
+	<p><b>Task</b>: как би излгеждала страницата, ако нямахме .clear елемент след последния floated .box?</p>
+</body>
+</html>
