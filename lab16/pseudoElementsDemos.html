@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>pseudoElementsDemos </title>
+	<style>
+		.products{
+			border:5px solid gray;
+		}
+		.products>div{
+			float:left;
+			height: 300px;
+			border:5px solid red;
+		}
+		/* .products>.clear{
+			clear:both;
+			display: block;
+		} */
+
+		.clear::after{
+			content:"";
+			display: block;
+			clear:both;
+		}
+
+		nav>div{
+			float: left;
+		}
+
+	</style>
+</head>
+<body>
+	<nav class="clear">
+		<div><a href="">link1</a></div>
+		<div><a href="">link2</a></div>
+	</nav>
+	<div class="products clear">
+		<div>product 1</div>
+		<div>product 2</div>
+		<div>product 3</div>
+		<div>product 4</div>
+		<!-- <span class="clear"></span> -->
+	</div>
+
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis error, quas beatae numquam culpa excepturi! Velit, illo, veritatis, commodi molestias doloremque minima ullam quisquam quis vero optio odit sunt deserunt?</p>
+</body>
+</html>

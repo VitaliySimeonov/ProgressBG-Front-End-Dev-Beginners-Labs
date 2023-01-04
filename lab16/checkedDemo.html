@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Checked</title>
+	<style>
+		input[type="radio"]{
+			/* display: none; */
+		}
+		.radio{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			vertical-align: middle;
+			border-radius: 100%;
+			border:2px solid gray;
+			/* background-color: ; */
+		}
+		input[type="radio"]:checked+div.radio{
+			background-color:red
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<label>
+			male:
+			<input type="radio" name="gender" value="male">
+			<div class="radio"></div>
+		</label>
+		<label>
+			female:
+			<input type="radio" name="gender" value="female">
+			<div class="radio"></div>
+		</label>
+		<button>Send</button>
+	</form>
+</body>
+</html>
